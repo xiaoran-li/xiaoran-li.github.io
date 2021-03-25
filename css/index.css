@@ -713,7 +713,7 @@ blockquote p {
     transition: opacity 0.2s ease-in-out;
   }
   .side-card .card-wrap {
-    padding: 10px 10px 10px 17px;
+    padding: 40px 10px 100px 17px;
   }
   .sticky {
     clear: both;
@@ -781,8 +781,8 @@ blockquote p {
   clear: both;
   width: 100%;
   float: left;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
   color: #fff;
   -webkit-animation: intro 0.3s both;
   animation: intro 0.3s both;
@@ -800,11 +800,13 @@ blockquote p {
   color: #000;
 }
 .footer_wrap {
+  text-align: center;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   clear: both;
-  margin-top: 8em;
+  margin-top: 6em;
+  margin-bottom: 2em;
   padding-left: 2.5em;
   font-size: 1.28rem;
 }

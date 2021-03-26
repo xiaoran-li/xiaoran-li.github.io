@@ -278,7 +278,7 @@ blockquote p {
   margin-right: auto;
   clear: both;
   padding: 1.6rem 2rem 1rem;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 #blog_name {
   display: inline-block;
@@ -286,11 +286,12 @@ blockquote p {
   vertical-align: top;
 }
 #blog_name a {
+  font-size: 4rem;
   display: block;
   margin: 0 1.6rem;
   padding: 0.8rem 0;
-  color: #7a8288;
-  font-weight: 600;
+  color: #000;
+  font-weight: 800;
   text-decoration: none;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -393,8 +394,9 @@ blockquote p {
   .menus_items li a {
     position: relative;
     display: block;
+    font-size: x-large;
     margin: 0 1.6rem;
-    padding: 0.8rem 0;
+    padding: 2.3rem 0;
     color: #7a8288;
     text-decoration: none;
   }
@@ -713,7 +715,7 @@ blockquote p {
     transition: opacity 0.2s ease-in-out;
   }
   .side-card .card-wrap {
-    padding: 40px 10px 100px 17px;
+    padding: 40px 10px 300px 17px;
   }
   .sticky {
     clear: both;
